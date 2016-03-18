@@ -3,8 +3,8 @@ machine:
     - docker
 dependencies:
   override:
-    - docker build -t staging .
+    - docker build -t 20uf/master-apache .
 test:
   override:
-    - docker run -d -p 8080:80 sut; sleep 10
+    - docker run -d -p 8080:80 20uf/master-apache; sleep 10
     - nc -z 127.0.0.1 8080
