@@ -1,8 +1,8 @@
-Docker ubuntu apache master
-============
+# Docker apache master
 
-Simple ubuntu docker images with apache
+> Simple ubuntu latest docker image with apache
 
+![enter image description here](https://circleci.com/gh/20uf/apache-master.svg?style=shield&circle-token=:circle-token)
 
 Usage
 -----
