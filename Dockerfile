@@ -1,10 +1,10 @@
 FROM ubuntu:14.04
 
-MAINTAINER  20uf "hello@0uf.fr"
+MAINTAINER "Michael COULLERET" "m@coulleret.pro"
 
 USER root
 
-# Set Apache environment variables (can be changed on docker run with -e)
+# Set Apache environment
 ENV APACHE_RUN_USER                         www-data
 ENV APACHE_RUN_GROUP                        www-data
 ENV APACHE_LOG_DIR                          /var/log/apache2
