@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER "Michael COULLERET" "m@coulleret.pro"
+MAINTAINER "Michael COULLERET" "michael@coulleret.pro"
 
 USER root
 
